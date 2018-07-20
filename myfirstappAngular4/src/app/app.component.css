@@ -1,0 +1,25 @@
+.black
+{
+    background: rgb(226, 226, 226);
+    color: black
+}
+.component2
+{
+    background: #474747;
+    color: #FFF;
+    padding: 1em;
+}
+.btn
+{
+    padding: 20px;
+    color: #FFF;
+    background-color: brown;
+    display: block;
+    margin: 3px;
+}
+.parrafo
+{
+    background-color: aquamarine;
+    padding:1em;
+    border-bottom: #474747;
+}

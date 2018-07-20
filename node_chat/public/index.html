@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <title>Chat Tutorial</title>
+
+  </head>
+  <body>
+
+    <!--Muestra los Textos del Chat-->
+    <div class="window">
+
+
+    <div id="chat"></div>
+
+    <!-- Controles del Chat-->
+    <form id="message-box">
+      <input type="text" id="chat-message">
+      <input type="submit" class="send" value="Enviar>">
+    </form>
+
+
+    </div>
+
+    <!-- scripts -->
+      <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
